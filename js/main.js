@@ -24,10 +24,24 @@ let fasterShip = {
     color: 'silver',
     'Fuel Type': 'Turbo Fuel'
   }
+//3. Use Dot Notation to access properties.
+let spaceship = {
+    homePlanet: 'Earth',
+    color: 'silver',
+    'Fuel Type': 'Turbo Fuel',
+    numCrew: 5,
+    flightPath: ['Venus', 'Mars', 'Saturn']
+  };
+  
+  // Write your code below
+  let crewCount = spaceship.numCrew;
+  
+  let planetArray = spaceship.flightPath;
 
+//4. Use Bracket Notation, 
+//4.1  Create a variable isActive and assign the spaceship‘s 'Active Mission' property to it.
 
-
-
+//4.2
 
 
 
