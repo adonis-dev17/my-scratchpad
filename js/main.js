@@ -110,4 +110,7 @@ let capFave = spaceship.crew.captain['favorite foods'][0];
 
 //7.2) In line 2, assign key-value pair as array for passengers.
 //in line 2, change to 
-passengers: [{name: 'Zenitsu', Skill: 'Mechanic'}],
+//passengers: [{name: 'Zenitsu', Skill: 'Mechanic'}],
+
+//7.3 Create a variable firstPassenger and assign the first passenger as its value (the element in the 0th index of the spaceship.passengers array you just made).
+let firstPassenger = spaceship.passengers[0]; 
