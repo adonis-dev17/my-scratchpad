@@ -67,8 +67,11 @@ let alienShip = {
     retreat() {
       console.log(retreatMessage);
     },
-
-
+//6.2 Add method takeOff()
+takeOff() {
+    console.log('Spim... Borp... Glix... Blastoff!');
+  }
+}
 
 
 
