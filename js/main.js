@@ -16,6 +16,10 @@
 //   this.innerHTML = Date();
 // }
 
+// *********All about Objects***********
+//1. Create an empty object called spaceship.
+let spaceship = {};
+
 
 
 
