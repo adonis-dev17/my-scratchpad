@@ -40,9 +40,9 @@ let spaceship = {
 
 //4. Use Bracket Notation, 
 //4.1  Create a variable isActive and assign the spaceship‘s 'Active Mission' property to it.
-
-//4.2
-
+let isActive = spaceship['Active Mission'];
+//4.2 Use bracket notation and the propName variable provided, console.log() the value of the 'Active Mission' property.
+console.log(spaceship[propName]);
 
 
 
