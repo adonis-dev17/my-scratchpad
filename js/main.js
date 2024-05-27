@@ -58,7 +58,15 @@ spaceship['numEngines'] = 8;
 //5.3 Use the delete operator to remove the 'Secret Mission' property from the spaceship object.
 delete spaceship['Secret Mission'];
 
+//6. Methods
+let retreatMessage = 'We no longer wish to conquer your planet. It is full of dogs, which we do not care for.';
 
+// Write your code below
+//6.1 Create an alienShip object, contain method retreat(), console log retreatMessage.
+let alienShip = {
+    retreat() {
+      console.log(retreatMessage);
+    },
 
 
 
