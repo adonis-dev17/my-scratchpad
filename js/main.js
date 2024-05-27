@@ -78,7 +78,7 @@ alienShip.takeOff();
 
 //7. Nested Objects
 let spaceship = {
-  passengers: null,
+  passengers: [{name: 'Zenitsu', Skill: 'Mechanic'}],
   telescope: {
     yearBuilt: 2018,
     model: "91031-XLT",
@@ -108,3 +108,6 @@ let spaceship = {
 //7.1 Create a variable capFave and assign the captain‘s favorite food (the element in the 0th index of her 'favorite foods' array) to it. Make sure to use bracket and dot notation to get the value of the food through nested access (don’t just copy the value into the variable!)
 let capFave = spaceship.crew.captain['favorite foods'][0];
 
+//7.2) In line 2, assign key-value pair as array for passengers.
+//in line 2, change to 
+passengers: [{name: 'Zenitsu', Skill: 'Mechanic'}],
