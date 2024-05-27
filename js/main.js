@@ -19,6 +19,11 @@
 // *********All about Objects***********
 //1. Create an empty object called spaceship.
 let spaceship = {};
+//2. Create an object called fasterShip with two key-value pairs
+let fasterShip = {
+    color: 'silver',
+    'Fuel Type': 'Turbo Fuel'
+  }
 
 
 
