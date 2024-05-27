@@ -72,8 +72,9 @@ takeOff() {
     console.log('Spim... Borp... Glix... Blastoff!');
   }
 }
-
-
+//6.3 Invoke your two methods: first .retreat() then .takeOff().
+alienShip.retreat();
+alienShip.takeOff();
 
 
 
