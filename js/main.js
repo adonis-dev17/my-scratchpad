@@ -44,10 +44,19 @@ let isActive = spaceship['Active Mission'];
 //4.2 Use bracket notation and the propName variable provided, console.log() the value of the 'Active Mission' property.
 console.log(spaceship[propName]);
 
-
-
-
-
+//5. Property Assignment
+let spaceship = {
+    'Fuel Type' : 'Turbo Fuel',
+    homePlanet : 'Earth',
+    color: 'silver',
+    'Secret Mission' : 'Discover life outside of Earth.'
+  };
+//5.1 Reassign the color property of the spaceship object to have a value of 'glorious gold'
+spaceship['color'] = 'glorious gold';
+//5.2  Add a numEngines property with a numeric value between 1 and 10 to the spaceship object.
+spaceship['numEngines'] = 8;
+//5.3 Use the delete operator to remove the 'Secret Mission' property from the spaceship object.
+delete spaceship['Secret Mission'];
 
 
 
