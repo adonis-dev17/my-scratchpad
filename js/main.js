@@ -141,3 +141,8 @@ function greenEnergy(obj) {
 function remotelyDisable(obj) {
   obj['disabled'] = true;
 }
+// Call your two functions with the spaceship object in the code editor, then console.log() the spaceship object to confirm those properties were changed/added.
+greenEnergy(spaceship);
+remotelyDisable(spaceship);
+console.log(spaceship);
+
