@@ -136,3 +136,8 @@ let spaceship = {
 function greenEnergy(obj) {
   obj['Fuel Type'] = 'avocado oil';
 }
+
+// Write a function remotelyDisable() that has an object as a parameter and sets (or reassigns) that object’s disabled property to true.
+function remotelyDisable(obj) {
+  obj['disabled'] = true;
+}
