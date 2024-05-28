@@ -114,3 +114,14 @@ let capFave = spaceship.crew.captain['favorite foods'][0];
 
 //7.3 Create a variable firstPassenger and assign the first passenger as its value (the element in the 0th index of the spaceship.passengers array you just made).
 let firstPassenger = spaceship.passengers[0]; 
+
+//8. Objects are passed by reference
+const spaceship = {
+  homePlanet : 'Earth',
+  color : 'silver'
+};
+
+let sprayPaint = obj => {
+  obj.color = 'glorious gold';
+}
+sprayPaint(spaceship) // "glorious gold" 
