@@ -125,3 +125,14 @@ let sprayPaint = obj => {
   obj.color = 'glorious gold';
 }
 sprayPaint(spaceship) // "glorious gold" 
+
+
+//  Object
+let spaceship = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth'
+};
+// 8.1 Write a function greenEnergy() that has an object as a parameter and sets that object’s 'Fuel Type' property to 'avocado oil'.
+function greenEnergy(obj) {
+  obj['Fuel Type'] = 'avocado oil';
+}
